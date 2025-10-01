@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>It's Maxon</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Style
+  * Template URL: https://bootstrapmade.com/style-bootstrap-portfolio-template/
+  * Updated: Jul 02 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+  <style>
+    /* Cloud Section Styling */
+
+.cloud-section {
+  padding: 80px 0;
+  background-color: var(--surface-color);
+  color: var(--default-color);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cloud-section .section-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+.cloud-section .section-header p {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 10px auto;
+  color: var(--default-color);
+}
+
+.cloud-section .title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 20px;
+}
+
+.cloud-section .description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--default-color);
+}
+
+.cloud-section .cloud-features {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.cloud-features li {
+  margin-bottom: 10px;
+  padding-left: 1.2em;
+  position: relative;
+  font-size: 16px;
+}
+
+.cloud-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.cta-btn {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  padding: 12px 28px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #054cb0;
+}
+
+.highlight-box {
+  background-color: var(--contrast-color);
+  padding: 25px 20px;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.highlight-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.highlight-box h5 {
+  font-size: 20px;
+  color: var(--heading-color);
+  margin-bottom: 8px;
+}
+
+.highlight-box p {
+  font-size: 15px;
+  color: var(--default-color);
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-top: 30px;
+}
+
+.deep-text {
+  max-width: 720px;
+  margin: 10px auto;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--default-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cloud-section .section-header h2 {
+    font-size: 28px;
+  }
+
+  .cloud-section .title {
+    font-size: 20px;
+  }
+
+  .cloud-section .cloud-features li {
+    font-size: 15px;
+  }
+
+  .highlight-box {
+    margin-bottom: 20px;
+  }
+}
+
+  </style>
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <!-- Uncomment the line below if you also wish to use an text logo -->
+        <!-- <h1 class="sitename">Style</h1>  -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+
+        <div class="profile-img">
+          <img src="assets/img/profile/m1.png" alt="" class="img-fluid rounded-circle">
+        </div>
+
+        <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.webp" alt=""> -->
+          <h1 class="sitename">Maxon</h1>
+        </a>
+
+        <div class="social-links text-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+<section id="cloud-services" class="cloud-section">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2>Cloud Services</h2>
+      <p>
+        Delivering flexible, secure, and scalable cloud solutions to streamline operations, boost performance, and support digital transformation.
+      </p>
+    </div>
+
+    <div class="row align-items-center mt-5">
+      <!-- Illustration -->
+      <div class="col-lg-6 text-center">
+        <img src="assets/img/mod/Cloud.png" alt="Cloud Services"
+             class="img-fluid"
+             style="max-width: 100%; height: auto;">
+        <!-- 💡 Image Suggestion:
+             Filename: cloud-services.png
+             Size: 650x450px
+             Concept: Cloud servers, shield, lock, data graph overlay
+        -->
+      </div>
+
+      <!-- Content Block -->
+      <div class="col-lg-6">
+        <h3 class="title">Smart, Secure, Scalable Infrastructure for the Future</h3>
+        <p class="description">
+          In today’s fast-paced digital era, your business needs cloud architecture that’s not only powerful but adaptive. Maxon's Cloud Services provide businesses of all sizes with cutting-edge cloud environments—designed for efficiency, security, and growth. Whether you're launching a startup or transforming an enterprise platform, we tailor the cloud to your vision.
+        </p>
+
+        <ul class="cloud-features">
+          <li>☁️ Full-stack cloud architecture using AWS, GCP & Azure</li>
+          <li>🔐 Zero-trust security protocols with end-to-end encryption</li>
+          <li>⚙️ DevOps & CI/CD integration for continuous deployment</li>
+          <li>📦 Containerization with Docker & Kubernetes</li>
+          <li>📊 Real-time monitoring, logging & scaling</li>
+        </ul>
+
+        <div class="cta mt-4">
+          <a href="#contact" class="cta-btn">Get Custom Cloud Consultation</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits Grid -->
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <div class="highlight-box">
+          <h5>Cloud Migration</h5>
+          <p>We make the switch effortless—migrating your apps, data, and infrastructure to the cloud without downtime or performance drops.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="highlight-box">
+          <h5>Scalability & Flexibility</h5>
+          <p>Grow your services instantly. Whether it's a spike in traffic or expansion into new markets, we scale your cloud to meet demand.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="highlight-box">
+          <h5>Automation & DevOps</h5>
+          <p>Integrate CI/CD pipelines, auto-deployments, and serverless architecture to streamline releases and accelerate delivery.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra Section (optional) -->
+    <div class="row mt-5">
+      <div class="col text-center">
+        <h4 class="subtitle">Why Cloud with Maxon?</h4>
+        <p class="deep-text">
+          We don't just offer cloud platforms — we craft cloud ecosystems. From development environments to production infrastructure, our team ensures every layer is optimized for speed, security, and scalability. Your cloud, your rules — engineered for performance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename"></strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://maxoncodes.com/">MaxonCodes</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
