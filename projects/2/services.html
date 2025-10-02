@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/home/fevicon.png" type="image/x-icon">
+
+	<!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Maxoncodes</title>
+    <style>
+        /* Services Page Styles */
+.services-container {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    border-radius: 8px;
+}
+
+/* Header Section */
+.services-header {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.services-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.services-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.service-card {
+    background-color: #fff;
+    width: 22%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-card .service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.service-card .service-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.service-card .service-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .service-card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .contact-section {
+        padding: 30px 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+    </style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+	
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+	<!--   === Main Navbar Starts ===   -->
+	<nav class="main-navbar">
+		<a href="" class="logo">
+			<img src="images/home/logo2.png">
+		</a>
+		<ul class="nav-list">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#courses">Courses</a></li>
+			<li><a href="#categories">Categories</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#testimonials">Feedback</a></li>
+		</ul>
+		<a href="#" class="get-started-btn-container">
+			<button class="get-started-btn btn">Go Now</button>
+		</a>
+		<div class="menu-btn">
+			<span></span>
+		</div>
+	</nav>
+	<!--   === Main Navbar Ends ===   -->
+
+	<!--   === Main Content Starts ===   -->
+<!-- Services Page Container -->
+<div class="services-container">
+    
+    <!-- Header Section -->
+    <header class="services-header">
+        <h1>Our Services</h1>
+        <p>Explore the wide range of services we offer to help you achieve your goals. From web development to digital marketing, we've got you covered!</p>
+    </header>
+
+    <!-- Services Section -->
+    <section class="services-section">
+        
+        <!-- Web Development Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/web-development.jpg" alt="Web Development">
+            </div>
+            <div class="service-content">
+                <h2>Web Development</h2>
+                <p>Build modern, responsive websites with high performance. From concept to launch, we handle it all.</p>
+            </div>
+        </div>
+
+        <!-- Web Designing Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/web-designing.jpg" alt="Web Designing">
+            </div>
+            <div class="service-content">
+                <h2>Web Designing</h2>
+                <p>Create visually stunning websites that are easy to navigate and designed to convert visitors into customers.</p>
+            </div>
+        </div>
+
+        <!-- SEO Optimization Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/seo.jpg" alt="SEO Optimization">
+            </div>
+            <div class="service-content">
+                <h2>SEO Optimization</h2>
+                <p>Improve your website's visibility on search engines, bringing in more organic traffic with effective SEO strategies.</p>
+            </div>
+        </div>
+
+        <!-- Web Maintenance Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/web-maintenance.jpg" alt="Web Maintenance">
+            </div>
+            <div class="service-content">
+                <h2>Web Maintenance</h2>
+                <p>Ensure your website stays up-to-date, secure, and performs optimally with our ongoing web maintenance services.</p>
+            </div>
+        </div>
+
+        <!-- Digital Marketing Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/digital-marketing.jpg" alt="Digital Marketing">
+            </div>
+            <div class="service-content">
+                <h2>Digital Marketing</h2>
+                <p>Boost your brand's online presence with tailored digital marketing strategies including social media, PPC, and more.</p>
+            </div>
+        </div>
+
+        <!-- E-Commerce Development Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/e-commerce.jpg" alt="E-Commerce Development">
+            </div>
+            <div class="service-content">
+                <h2>E-Commerce Development</h2>
+                <p>Transform your business into a full-fledged online store with seamless e-commerce solutions for growth.</p>
+            </div>
+        </div>
+
+        <!-- Mobile App Development Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/mobile-app.jpg" alt="Mobile App Development">
+            </div>
+            <div class="service-content">
+                <h2>Mobile App Development</h2>
+                <p>Bring your ideas to life with user-friendly mobile apps designed for both Android and iOS platforms.</p>
+            </div>
+        </div>
+
+        <!-- Content Creation Service -->
+        <div class="service-card">
+            <div class="service-image">
+                <img src="images/content-creation.jpg" alt="Content Creation">
+            </div>
+            <div class="service-content">
+                <h2>Content Creation</h2>
+                <p>Engage your audience with high-quality content that drives traffic and boosts conversions.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section">
+        <h2>Get Started Today</h2>
+        <p>If you're ready to take your website to the next level, contact us today and let’s get started!</p>
+        <a href="contact.html" class="contact-btn">Contact Us</a>
+    </section>
+</div>
+	<!--   === Main Content Ends ===   -->
+</section>
+<!--   *** Home Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="footer" id="footer">
+	
+	<!--   === Footer Contents Starts ===   -->
+	<div class="footer-contents">
+		
+		<div class="footer-col footer-col-1">
+			<div class="col-title">
+				<img src="images/home/logo2.png">
+			</div>
+			<div class="col-contents">
+				<p>MaxonCodes is your ultimate destination for mastering web design and development. With expertly curated courses, hands-on projects, and 24/7 support</p>
+				<p>Start your journey with us today and build the future, one line of code at a time.</p>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-2">
+			<div class="col-title">
+				<h3>Contact</h3>
+			</div>
+			<div class="col-contents">
+				<div class="contact-row">
+					<span>Address</span>
+					<span>282001 Agra - India</span>
+				</div>
+				<div class="contact-row">
+					<span>Phone</span>
+					<span>+91 999-888-777</span>
+				</div>
+				<div class="contact-row">
+					<span>Email</span>
+					<span>maxoncodes@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-3">
+			<div class="col-title">
+				<h3>Quick Links</h3>
+			</div>
+			<div class="col-contents">
+				<a href="index.html">Home</a>
+				<a href="services.html">Services</a>
+				<a href="courses.html">Courses</a>
+				<a href="categories.html">Categories</a>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-4">
+			<div class="col-title">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="col-contents">
+				<form class="newsletter">
+					<input type="email" placeholder="Your Email">
+					<button class="newsletter-btn btn" type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+	<!--   === Footer Contents Ends ===   -->
+	<div class="copy-rights">
+		<p><b>Edu Hub</b> All Rights Reserved <b>2025</b></p>
+	</div>
+
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!--   *** Link To Owl Carousel ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Custom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

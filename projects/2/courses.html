@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/home/fevicon.png" type="image/x-icon">
+
+	<!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Maxoncodes</title>
+    <style>
+        /* Courses Page Styles */
+.courses-container {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    border-radius: 8px;
+}
+
+/* Header Section */
+.courses-header {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.courses-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.courses-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Courses Section */
+.courses-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.course-card {
+    background-color: #fff;
+    width: 22%;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.course-card .course-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.course-card .course-content h2 {
+    font-size: 1.5rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.course-card .course-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.course-card .course-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.course-card .course-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .course-card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    .courses-header h1 {
+        font-size: 2rem;
+    }
+
+    .courses-header p {
+        font-size: 1rem;
+    }
+
+    .course-btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+    </style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+	
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+	<!--   === Main Navbar Starts ===   -->
+	<nav class="main-navbar">
+		<a href="index.html" class="logo">
+			<img src="images/home/logo2.png">
+		</a>
+		<ul class="nav-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="categories.html">Categories</a></li>
+			<li><a href="blog.html">Blog</a></li>
+		</ul>
+		<a href="#" class="get-started-btn-container">
+			<button class="get-started-btn btn">Go Now</button>
+		</a>
+		<div class="menu-btn">
+			<span></span>
+		</div>
+	</nav>
+	<!--   === Main Navbar Ends ===   -->
+
+	<!--   === Main Content Starts ===   -->
+<!-- Courses Page Container -->
+<div class="courses-container">
+
+    <!-- Header Section -->
+    <header class="courses-header">
+        <h1>Our Courses</h1>
+        <p>Explore our expertly designed courses and start mastering web development, design, digital marketing, and more!</p>
+    </header>
+
+    <!-- Courses Section -->
+    <section class="courses-section">
+
+        <!-- Web Development Course -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/web-development-course.jpg" alt="Web Development Course">
+            </div>
+            <div class="course-content">
+                <h2>Web Development Mastery</h2>
+                <p>Learn the fundamentals and advanced topics in web development. Create stunning websites with HTML, CSS, JavaScript, and more.</p>
+                <a href="web-development.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Web Designing Course -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/web-designing-course.jpg" alt="Web Designing Course">
+            </div>
+            <div class="course-content">
+                <h2>Web Designing Essentials</h2>
+                <p>Master the art of web design. Learn how to create user-friendly, responsive websites with creative design principles.</p>
+                <a href="web-designing.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+                <!-- UI/UX Design -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="images/ui-ux-course.jpg" alt="UI/UX Design Course">
+                    </div>
+                    <div class="course-content">
+                        <h2>UI/UX Design</h2>
+                        <p>Enhance user experiences by mastering UI/UX design principles. Learn Figma, Adobe XD, prototyping, and wireframing.</p>
+                        <a href="ui-ux.html" class="course-btn">Learn More</a>
+                    </div>
+                </div>
+
+                        <!-- Backend Development -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/backend-course.jpg" alt="Backend Development Course">
+            </div>
+            <div class="course-content">
+                <h2>Backend Development</h2>
+                <p>Learn to build robust backends with Node.js, Django, Flask, and more. Understand APIs, databases, and server management.</p>
+                <a href="backend.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- SEO Optimization Course -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/seo-course.jpg" alt="SEO Optimization Course">
+            </div>
+            <div class="course-content">
+                <h2>SEO Optimization</h2>
+                <p>Enhance your website’s visibility on search engines with our SEO course. Learn techniques to drive organic traffic.</p>
+                <a href="seo.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Digital Marketing Course -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/digital-marketing-course.jpg" alt="Digital Marketing Course">
+            </div>
+            <div class="course-content">
+                <h2>Digital Marketing 101</h2>
+                <p>Explore the world of digital marketing. Learn how to create campaigns, grow an online presence, and optimize for success.</p>
+                <a href="digital-marketing.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- E-Commerce Development Course -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/e-commerce-course.jpg" alt="E-Commerce Development Course">
+            </div>
+            <div class="course-content">
+                <h2>E-Commerce Development</h2>
+                <p>Learn to build and manage successful e-commerce platforms. From product management to payment systems, master the entire process.</p>
+                <a href="e-commerce.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+        <!-- Mobile App Development Course -->
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/mobile-app-course.jpg" alt="Mobile App Development Course">
+            </div>
+            <div class="course-content">
+                <h2>Mobile App Development</h2>
+                <p>Develop native and cross-platform mobile apps for iOS and Android. Learn the latest frameworks and tools in app development.</p>
+                <a href="mobile-app.html" class="course-btn">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+	<!--   === Main Content Ends ===   -->
+</section>
+<!--   *** Home Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="footer" id="footer">
+	
+	<!--   === Footer Contents Starts ===   -->
+	<div class="footer-contents">
+		
+		<div class="footer-col footer-col-1">
+			<div class="col-title">
+				<img src="images/home/logo2.png">
+			</div>
+			<div class="col-contents">
+				<p>MaxonCodes is your ultimate destination for mastering web design and development. With expertly curated courses, hands-on projects, and 24/7 support</p>
+				<p>Start your journey with us today and build the future, one line of code at a time.</p>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-2">
+			<div class="col-title">
+				<h3>Contact</h3>
+			</div>
+			<div class="col-contents">
+				<div class="contact-row">
+					<span>Address</span>
+					<span>282001 Agra - India</span>
+				</div>
+				<div class="contact-row">
+					<span>Phone</span>
+					<span>+91 999-888-777</span>
+				</div>
+				<div class="contact-row">
+					<span>Email</span>
+					<span>maxoncodes@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-3">
+			<div class="col-title">
+				<h3>Quick Links</h3>
+			</div>
+			<div class="col-contents">
+				<a href="index.html">Home</a>
+				<a href="services.html">Services</a>
+				<a href="courses.html">Courses</a>
+				<a href="categories.html">Categories</a>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-4">
+			<div class="col-title">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="col-contents">
+				<form class="newsletter">
+					<input type="email" placeholder="Your Email">
+					<button class="newsletter-btn btn" type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+	<!--   === Footer Contents Ends ===   -->
+	<div class="copy-rights">
+		<p><b>Edu Hub</b> All Rights Reserved <b>2025</b></p>
+	</div>
+
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!--   *** Link To Owl Carousel ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Custom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

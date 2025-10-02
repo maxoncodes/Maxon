@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/home/fevicon.png" type="image/x-icon">
+
+	<!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Maxoncodes</title>
+    <style>
+/* Contact Us Page Styles */
+.contact-container {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    border-radius: 8px;
+}
+
+/* Header Section */
+.contact-header {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Contact Information Section and Image Section */
+.contact-info-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* Left Section for Contact Information */
+.contact-info {
+    flex: 1;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-info h2 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.contact-info .contact-row {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Right Section for Image */
+.contact-image {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.contact-form p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 3px 3px 5px rgba(0, 123, 255, 0.3);
+}
+
+.contact-form button.submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.contact-form button.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .contact-info-section {
+        flex-direction: column;
+    }
+
+    .contact-info, .contact-image {
+        flex: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-info h2, .contact-form h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 0.9rem;
+    }
+
+    .contact-form button.submit-btn {
+        font-size: 1rem;
+    }
+}
+
+    </style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+	
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+	<!--   === Main Navbar Starts ===   -->
+	<nav class="main-navbar">
+		<a href="index.html" class="logo">
+			<img src="images/home/logo2.png">
+		</a>
+		<ul class="nav-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="categories.html">Categories</a></li>
+			<li><a href="blog.html">Blog</a></li>
+		</ul>
+		<a href="#" class="get-started-btn-container">
+			<button class="get-started-btn btn">Go Now</button>
+		</a>
+		<div class="menu-btn">
+			<span></span>
+		</div>
+	</nav>
+	<!--   === Main Navbar Ends ===   -->
+
+	<!--   === Main Content Starts ===   -->
+<!-- Contact Us Page Container -->
+<div class="contact-container">
+    
+    <!-- Header Section -->
+    <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please reach out with any questions or inquiries, and we'll get back to you as soon as possible.</p>
+    </header>
+    
+    <!-- Contact Information Section and Image Section -->
+    <section class="contact-info-section">
+        
+        <!-- Left Section for Contact Information -->
+        <div class="contact-info">
+            <h2>Our Contact Information</h2>
+            
+            <div class="contact-row">
+                <h3>Address:</h3>
+                <p>282021 Agra - India</p>
+            </div>
+            
+            <div class="contact-row">
+                <h3>Phone:</h3>
+                <p>+91 999-888-777</p>
+            </div>
+            
+            <div class="contact-row">
+                <h3>Email:</h3>
+                <p>maxoncodes@gmail.com</p>
+            </div>
+        </div>
+        
+        <!-- Right Section for Image -->
+        <div class="contact-image">
+            <img src="https://www.kindpng.com/picc/m/773-7730332_contact-us-vector-png-transparent-png.png" alt="Contact Us">
+        </div>
+
+    </section>
+    
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, feel free to send us a message using the form below.</p>
+        
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+</div>
+
+	<!--   === Main Content Ends ===   -->
+</section>
+<!--   *** Home Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="footer" id="footer">
+	
+	<!--   === Footer Contents Starts ===   -->
+	<div class="footer-contents">
+		
+		<div class="footer-col footer-col-1">
+			<div class="col-title">
+				<img src="images/home/logo2.png">
+			</div>
+			<div class="col-contents">
+				<p>MaxonCodes is your ultimate destination for mastering web design and development. With expertly curated courses, hands-on projects, and 24/7 support</p>
+				<p>Start your journey with us today and build the future, one line of code at a time.</p>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-2">
+			<div class="col-title">
+				<h3>Contact</h3>
+			</div>
+			<div class="col-contents">
+				<div class="contact-row">
+					<span>Address</span>
+					<span>282001 Agra - India</span>
+				</div>
+				<div class="contact-row">
+					<span>Phone</span>
+					<span>+91 999-888-777</span>
+				</div>
+				<div class="contact-row">
+					<span>Email</span>
+					<span>maxoncodes@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-3">
+			<div class="col-title">
+				<h3>Quick Links</h3>
+			</div>
+			<div class="col-contents">
+				<a href="index.html">Home</a>
+				<a href="services.html">Services</a>
+				<a href="courses.html">Courses</a>
+				<a href="categories.html">Categories</a>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-4">
+			<div class="col-title">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="col-contents">
+				<form class="newsletter">
+					<input type="email" placeholder="Your Email">
+					<button class="newsletter-btn btn" type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+	<!--   === Footer Contents Ends ===   -->
+	<div class="copy-rights">
+		<p><b>Edu Hub</b> All Rights Reserved <b>2025</b></p>
+	</div>
+
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!--   *** Link To Owl Carousel ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Custom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

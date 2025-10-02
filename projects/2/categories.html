@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/home/fevicon.png" type="image/x-icon">
+
+	<!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Maxoncodes</title>
+    <style>
+
+.categories-page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.categories-header {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.categories-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.categories-header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.categories-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category-card {
+    background: #fff;
+    box-shadow: -7px -7px 20px 0px #fff9, 7px 7px 20px 0px #0002;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: -10px -10px 30px 0px #fff9, 10px 10px 30px 0px #0002;
+}
+
+.category-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-content {
+    padding: 15px;
+}
+
+.category-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.category-content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.category-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.category-content .btn:hover {
+    background: #0056b3;
+}
+
+    </style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+	
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+	<!--   === Main Navbar Starts ===   -->
+	<nav class="main-navbar">
+		<a href="index.html" class="logo">
+			<img src="images/home/logo2.png">
+		</a>
+		<ul class="nav-list">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="courses.html">Courses</a></li>
+			<li><a href="categories.html">Categories</a></li>
+			<li><a href="blog.html">Blog</a></li>
+		</ul>
+		<a href="#" class="get-started-btn-container">
+			<button class="get-started-btn btn">Go Now</button>
+		</a>
+		<div class="menu-btn">
+			<span></span>
+		</div>
+	</nav>
+	<!--   === Main Navbar Ends ===   -->
+
+	<!--   === Main Content Starts ===   -->
+<!-- Categories Page Container -->
+<div class="categories-page-container">
+
+    <!-- Header Section -->
+    <section class="categories-header">
+        <h1>Explore Our Categories</h1>
+        <p>Dive into a wide range of categories to start your learning journey.</p>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="category-card">
+            <img src="images/categories/web-development.jpg" alt="Web Development">
+            <div class="category-content">
+                <h2>Web Development</h2>
+                <p>Learn to build dynamic websites and web applications with cutting-edge technologies.</p>
+                <a href="web-development.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/web-design.jpg" alt="Web Design">
+            <div class="category-content">
+                <h2>Web Design</h2>
+                <p>Master the art of designing stunning and user-friendly websites.</p>
+                <a href="web-designing.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/digital-marketing.jpg" alt="Digital Marketing">
+            <div class="category-content">
+                <h2>Digital Marketing</h2>
+                <p>Boost your marketing skills with SEO, social media strategies, and more.</p>
+                <a href="digital-marketing.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/ui-ux.jpg" alt="UI/UX Design">
+            <div class="category-content">
+                <h2>UI/UX Design</h2>
+                <p>Learn how to create intuitive and engaging user interfaces and experiences.</p>
+                <a href="ui-ux.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/photography.jpg" alt="Photography">
+            <div class="category-content">
+                <h2>Photography</h2>
+                <p>Develop your photography skills and capture professional-grade visuals.</p>
+                <a href="web-photography.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/mobile-app.jpg" alt="Mobile App Development">
+            <div class="category-content">
+                <h2>Mobile App Development</h2>
+                <p>Learn to create responsive mobile apps for iOS and Android platforms.</p>
+                <a href="mobile-app.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/e-commerce.jpg" alt="E-Commerce">
+            <div class="category-content">
+                <h2>E-Commerce</h2>
+                <p>Master the tools to build and manage successful e-commerce platforms.</p>
+                <a href="e-commerce.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/categories/graphic-design.jpg" alt="Graphic Design">
+            <div class="category-content">
+                <h2>Graphic Design</h2>
+                <p>Unleash your creativity with advanced graphic design tools and techniques.</p>
+                <a href="graphic-design.html" class="btn">Explore Now</a>
+            </div>
+        </div>
+    </section>
+</div>
+	<!--   === Main Content Ends ===   -->
+</section>
+<!--   *** Home Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="footer" id="footer">
+	
+	<!--   === Footer Contents Starts ===   -->
+	<div class="footer-contents">
+		
+		<div class="footer-col footer-col-1">
+			<div class="col-title">
+				<img src="images/home/logo2.png">
+			</div>
+			<div class="col-contents">
+				<p>MaxonCodes is your ultimate destination for mastering web design and development. With expertly curated courses, hands-on projects, and 24/7 support</p>
+				<p>Start your journey with us today and build the future, one line of code at a time.</p>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-2">
+			<div class="col-title">
+				<h3>Contact</h3>
+			</div>
+			<div class="col-contents">
+				<div class="contact-row">
+					<span>Address</span>
+					<span>282001 Agra - India</span>
+				</div>
+				<div class="contact-row">
+					<span>Phone</span>
+					<span>+91 999-888-777</span>
+				</div>
+				<div class="contact-row">
+					<span>Email</span>
+					<span>maxoncodes@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-3">
+			<div class="col-title">
+				<h3>Quick Links</h3>
+			</div>
+			<div class="col-contents">
+				<a href="index.html">Home</a>
+				<a href="services.html">Services</a>
+				<a href="courses.html">Courses</a>
+				<a href="categories.html">Categories</a>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-4">
+			<div class="col-title">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="col-contents">
+				<form class="newsletter">
+					<input type="email" placeholder="Your Email">
+					<button class="newsletter-btn btn" type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+	<!--   === Footer Contents Ends ===   -->
+	<div class="copy-rights">
+		<p><b>Edu Hub</b> All Rights Reserved <b>2025</b></p>
+	</div>
+
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!--   *** Link To Owl Carousel ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Custom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="images/home/fevicon.png" type="image/x-icon">
+
+	<!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Maxoncodes</title>
+    <style>
+        /* Web Photography Page Styles */
+.photography-container {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9, 7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+    border-radius: 8px;
+}
+
+/* Header Section */
+.photography-header {
+    margin-top: 6%;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.photography-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.photography-header p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Services Section */
+.photography-services {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.photography-services h2 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.photography-services p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service-card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Portfolio Section */
+.photography-portfolio {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.photography-portfolio h2 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.photography-portfolio p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+/* Tools Section */
+.photography-tools {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.photography-tools h2 {
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 3px 3px 6px #a5b9a9, -3px -3px 6px #fff;
+}
+
+.photography-tools ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.photography-tools li {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Call to Action Section */
+.photography-cta {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.photography-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.photography-cta p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.photography-cta .cta-btn {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.photography-cta .cta-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .photography-header h1 {
+        font-size: 2rem;
+    }
+
+    .photography-services h2, .photography-portfolio h2, .photography-tools h2, .photography-cta h2 {
+        font-size: 1.5rem;
+    }
+
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+
+    .photography-cta {
+        padding: 30px;
+    }
+}
+
+    </style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+	
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+	<!--   === Main Navbar Starts ===   -->
+	<nav class="main-navbar">
+		<a href="" class="logo">
+			<img src="images/home/logo2.png">
+		</a>
+		<ul class="nav-list">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#courses">Courses</a></li>
+			<li><a href="#categories">Categories</a></li>
+			<li><a href="#blog">Blog</a></li>
+			<li><a href="#testimonials">Feedback</a></li>
+		</ul>
+		<a href="#" class="get-started-btn-container">
+			<button class="get-started-btn btn">Go Now</button>
+		</a>
+		<div class="menu-btn">
+			<span></span>
+		</div>
+	</nav>
+	<!--   === Main Navbar Ends ===   -->
+
+	<!--   === Main Content Starts ===   -->
+<!-- Photography Page Container -->
+<div class="photography-container">
+    
+    <!-- Header Section -->
+    <header class="photography-header">
+        <div class="logo">
+            <img src="images/home/logo2.png" alt="MaxonCodes Logo">
+        </div>
+        <h1>Capture the Perfect Moment with MaxonCodes Photography</h1>
+        <p>Professional web photography services that help you showcase your brand in stunning detail. Explore our portfolio and find out how we can make your vision come to life.</p>
+    </header>
+    
+    <!-- Photography Services Section -->
+    <section class="photography-services">
+        <h2>Our Photography Services</h2>
+        <p>We offer a wide range of photography services, each designed to cater to your specific needs. Whether you need stunning product photography or portraits, we’ve got you covered.</p>
+        
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Product Photography</h3>
+                <p>Showcase your products in the best light with professional shots that enhance details and textures.</p>
+            </div>
+            <div class="service-card">
+                <h3>Event Photography</h3>
+                <p>Capture the moments that matter at your corporate events, weddings, or parties with our expert photographers.</p>
+            </div>
+            <div class="service-card">
+                <h3>Portrait Photography</h3>
+                <p>Highlight the personality and essence of your subjects with our personalized portrait photography services.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Photography Portfolio Section -->
+    <section class="photography-portfolio">
+        <h2>Our Portfolio</h2>
+        <p>Browse through our collection of professional photographs, captured with attention to detail and creativity.</p>
+        
+        <div class="portfolio-gallery">
+            <div class="portfolio-item">
+                <img src="images/posts/13.jpg" alt="Portfolio Image 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="images/posts/14.png" alt="Portfolio Image 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="images/posts/15.webp" alt="Portfolio Image 3">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Photography Tools Section -->
+    <section class="photography-tools">
+        <h2>Tools We Use</h2>
+        <p>We use only the best equipment to ensure your photos turn out perfectly every time. Here are some of the tools we rely on:</p>
+        
+        <ul>
+            <li><strong>Canon EOS R5:</strong> A top-tier camera for capturing stunning high-resolution images.</li>
+            <li><strong>Adobe Photoshop:</strong> The industry-standard software for photo editing and enhancing.</li>
+            <li><strong>Lightroom:</strong> Perfect for color correction, lighting adjustments, and perfecting images.</li>
+            <li><strong>Tripods and Stabilizers:</strong> Ensure steady and blur-free photos, even in fast-paced situations.</li>
+        </ul>
+    </section>
+    
+    <!-- Call to Action Section -->
+    <section class="photography-cta">
+        <h2>Book Your Photography Session Today!</h2>
+        <p>Let us help you create the perfect visual representation of your brand. Book a session today and get started on your photography journey.</p>
+        <a href="contact.html" class="cta-btn">Contact Us</a>
+    </section>
+
+</div>
+	<!--   === Main Content Ends ===   -->
+</section>
+<!--   *** Home Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="footer" id="footer">
+	
+	<!--   === Footer Contents Starts ===   -->
+	<div class="footer-contents">
+		
+		<div class="footer-col footer-col-1">
+			<div class="col-title">
+				<img src="images/home/logo2.png">
+			</div>
+			<div class="col-contents">
+				<p>MaxonCodes is your ultimate destination for mastering web design and development. With expertly curated courses, hands-on projects, and 24/7 support</p>
+				<p>Start your journey with us today and build the future, one line of code at a time.</p>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-2">
+			<div class="col-title">
+				<h3>Contact</h3>
+			</div>
+			<div class="col-contents">
+				<div class="contact-row">
+					<span>Address</span>
+					<span>282001 Agra - India</span>
+				</div>
+				<div class="contact-row">
+					<span>Phone</span>
+					<span>+91 999-888-777</span>
+				</div>
+				<div class="contact-row">
+					<span>Email</span>
+					<span>maxoncodes@gmail.com</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-3">
+			<div class="col-title">
+				<h3>Quick Links</h3>
+			</div>
+			<div class="col-contents">
+				<a href="index.html">Home</a>
+				<a href="services.html">Services</a>
+				<a href="courses.html">Courses</a>
+				<a href="categories.html">Categories</a>
+			</div>
+		</div>
+
+		<div class="footer-col footer-col-4">
+			<div class="col-title">
+				<h3>Newsletter</h3>
+			</div>
+			<div class="col-contents">
+				<form class="newsletter">
+					<input type="email" placeholder="Your Email">
+					<button class="newsletter-btn btn" type="submit">Subscribe</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+	<!--   === Footer Contents Ends ===   -->
+	<div class="copy-rights">
+		<p><b>Edu Hub</b> All Rights Reserved <b>2025</b></p>
+	</div>
+
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!--   *** Link To Owl Carousel ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Custom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
